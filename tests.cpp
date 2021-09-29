@@ -22,24 +22,24 @@ void testBIConstructor() {
     BigInteger m(ULONG_MAX);
     BigInteger n(ULONG_LONG_MAX);
 
-    assert(BigInteger::to_string(a) == "1000000000000000000000");
-    assert(BigInteger::to_string(b) == "123456789101112131415");
-    assert(BigInteger::to_string(c) == "-123456789101112131415");
-    assert(BigInteger::to_string(d) == "-1000000000000000000000");
+    assert(a.to_string() == "1000000000000000000000");
+    assert(b.to_string() == "123456789101112131415");
+    assert(c.to_string() == "-123456789101112131415");
+    assert(d.to_string() == "-1000000000000000000000");
     assert(e == 0);
 
-    assert(BigInteger::to_string(f) == "2147483647");
-    assert(BigInteger::to_string(g) == "-2147483648");
+    assert(f.to_string() == "2147483647");
+    assert(g.to_string() == "-2147483648");
 
-    assert(BigInteger::to_string(h) == "9223372036854775807");
-    assert(BigInteger::to_string(i) == "-9223372036854775808");
+    assert(h.to_string() == "9223372036854775807");
+    assert(i.to_string() == "-9223372036854775808");
 
-    assert(BigInteger::to_string(j) == "9223372036854775807");
-    assert(BigInteger::to_string(k) == "-9223372036854775808");
+    assert(j.to_string() == "9223372036854775807");
+    assert(k.to_string() == "-9223372036854775808");
 
-    assert(BigInteger::to_string(l) == "4294967295");
-    assert(BigInteger::to_string(m) == "18446744073709551615");
-    assert(BigInteger::to_string(n) == "18446744073709551615");
+    assert(l.to_string() == "4294967295");
+    assert(m.to_string() == "18446744073709551615");
+    assert(n.to_string() == "18446744073709551615");
 }
 
 void testBIAddition() {
@@ -48,27 +48,27 @@ void testBIAddition() {
     BigInteger c("-123456789101112131415");
     BigInteger d("-1000000000000000000000");
 
-    assert(BigInteger::to_string(a + b) == "1123456789101112131415");
-    assert(BigInteger::to_string(a + b + c) == "1000000000000000000000");
+    assert((a + b).to_string() == "1123456789101112131415");
+    assert((a + b + c).to_string() == "1000000000000000000000");
     assert(b + c == 0);
 
-    assert(BigInteger::to_string(a + INT_MAX) == "1000000000002147483647");
-    assert(BigInteger::to_string(a + LONG_MAX) == "1009223372036854775807");
-    assert(BigInteger::to_string(a + LONG_LONG_MAX) == "1009223372036854775807");
+    assert((a + INT_MAX).to_string() == "1000000000002147483647");
+    assert((a + LONG_MAX).to_string() == "1009223372036854775807");
+    assert((a + LONG_LONG_MAX).to_string() == "1009223372036854775807");
 
-    assert(BigInteger::to_string(d + INT_MIN) == "-1000000000002147483648");
-    assert(BigInteger::to_string(d + LONG_MIN) == "-1009223372036854775808");
-    assert(BigInteger::to_string(d + LONG_LONG_MIN) == "-1009223372036854775808");
+    assert((d + INT_MIN).to_string() == "-1000000000002147483648");
+    assert((d + LONG_MIN).to_string() == "-1009223372036854775808");
+    assert((d + LONG_LONG_MIN).to_string() == "-1009223372036854775808");
 
     ++a;
-    assert(BigInteger::to_string(a) == "1000000000000000000001");
+    assert((a).to_string() == "1000000000000000000001");
     ++d;
-    assert(BigInteger::to_string(d) == "-999999999999999999999");
+    assert((d).to_string() == "-999999999999999999999");
 
     a += LONG_LONG_MAX;
-    assert(BigInteger::to_string(a) == "1009223372036854775808");
+    assert((a).to_string() == "1009223372036854775808");
     d += LONG_LONG_MIN;
-    assert(BigInteger::to_string(d) == "-1009223372036854775807");
+    assert((d).to_string() == "-1009223372036854775807");
 }
 
 void testBISubtraction() {
@@ -77,27 +77,27 @@ void testBISubtraction() {
     BigInteger c("-123456789101112131415");
     BigInteger d("-1000000000000000000000");
 
-    assert(BigInteger::to_string(a - c) == "1123456789101112131415");
-    assert(BigInteger::to_string(a - b - c) == "1000000000000000000000");
-    assert(BigInteger::to_string(a - d) == "2000000000000000000000");
+    assert((a - c).to_string() == "1123456789101112131415");
+    assert((a - b - c).to_string() == "1000000000000000000000");
+    assert((a - d).to_string() == "2000000000000000000000");
 
-    assert(BigInteger::to_string(a - INT_MIN) == "1000000000002147483648");
-    assert(BigInteger::to_string(a - LONG_MIN) == "1009223372036854775808");
-    assert(BigInteger::to_string(a - LONG_LONG_MIN) == "1009223372036854775808");
+    assert((a - INT_MIN).to_string() == "1000000000002147483648");
+    assert((a - LONG_MIN).to_string() == "1009223372036854775808");
+    assert((a - LONG_LONG_MIN).to_string() == "1009223372036854775808");
 
-    assert(BigInteger::to_string(d - INT_MAX) == "-1000000000002147483647");
-    assert(BigInteger::to_string(d - LONG_MAX) == "-1009223372036854775807");
-    assert(BigInteger::to_string(d - LONG_LONG_MAX) == "-1009223372036854775807");
+    assert((d - INT_MAX).to_string() == "-1000000000002147483647");
+    assert((d - LONG_MAX).to_string() == "-1009223372036854775807");
+    assert((d - LONG_LONG_MAX).to_string() == "-1009223372036854775807");
 
     --a;
-    assert(BigInteger::to_string(a) == "999999999999999999999");
+    assert((a).to_string() == "999999999999999999999");
     --d;
-    assert(BigInteger::to_string(d) == "-1000000000000000000001");
+    assert((d).to_string() == "-1000000000000000000001");
 
     a -= LONG_LONG_MIN;
-    assert(BigInteger::to_string(a) == "1009223372036854775807");
+    assert((a).to_string() == "1009223372036854775807");
     d -= LONG_LONG_MAX;
-    assert(BigInteger::to_string(d) == "-1009223372036854775808");
+    assert((d).to_string() == "-1009223372036854775808");
 }
 
 void testBILess() {

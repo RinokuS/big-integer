@@ -86,6 +86,12 @@
 		<Unit filename="/Users/rinokus/Documents/Projects/big-integer/big_integer_lib/BigInteger.h">
 			<Option target="big_integer_lib"/>
 		</Unit>
+		<Unit filename="/Users/rinokus/Documents/Projects/big-integer/big_integer_lib/UnsignedBigInteger.cpp">
+			<Option target="big_integer_lib"/>
+		</Unit>
+		<Unit filename="/Users/rinokus/Documents/Projects/big-integer/big_integer_lib/UnsignedBigInteger.h">
+			<Option target="big_integer_lib"/>
+		</Unit>
 		<Unit filename="/Users/rinokus/Documents/Projects/big-integer/tests.cpp">
 			<Option target="big_integer_lib"/>
 		</Unit>

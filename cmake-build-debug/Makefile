@@ -170,6 +170,33 @@ big_integer_lib/BigInteger.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/big_integer_lib.dir/build.make CMakeFiles/big_integer_lib.dir/big_integer_lib/BigInteger.cpp.s
 .PHONY : big_integer_lib/BigInteger.cpp.s
 
+big_integer_lib/UnsignedBigInteger.o: big_integer_lib/UnsignedBigInteger.cpp.o
+
+.PHONY : big_integer_lib/UnsignedBigInteger.o
+
+# target to build an object file
+big_integer_lib/UnsignedBigInteger.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/big_integer_lib.dir/build.make CMakeFiles/big_integer_lib.dir/big_integer_lib/UnsignedBigInteger.cpp.o
+.PHONY : big_integer_lib/UnsignedBigInteger.cpp.o
+
+big_integer_lib/UnsignedBigInteger.i: big_integer_lib/UnsignedBigInteger.cpp.i
+
+.PHONY : big_integer_lib/UnsignedBigInteger.i
+
+# target to preprocess a source file
+big_integer_lib/UnsignedBigInteger.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/big_integer_lib.dir/build.make CMakeFiles/big_integer_lib.dir/big_integer_lib/UnsignedBigInteger.cpp.i
+.PHONY : big_integer_lib/UnsignedBigInteger.cpp.i
+
+big_integer_lib/UnsignedBigInteger.s: big_integer_lib/UnsignedBigInteger.cpp.s
+
+.PHONY : big_integer_lib/UnsignedBigInteger.s
+
+# target to generate assembly for a file
+big_integer_lib/UnsignedBigInteger.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/big_integer_lib.dir/build.make CMakeFiles/big_integer_lib.dir/big_integer_lib/UnsignedBigInteger.cpp.s
+.PHONY : big_integer_lib/UnsignedBigInteger.cpp.s
+
 tests.o: tests.cpp.o
 
 .PHONY : tests.o
@@ -209,6 +236,9 @@ help:
 	@echo "... big_integer_lib/BigInteger.o"
 	@echo "... big_integer_lib/BigInteger.i"
 	@echo "... big_integer_lib/BigInteger.s"
+	@echo "... big_integer_lib/UnsignedBigInteger.o"
+	@echo "... big_integer_lib/UnsignedBigInteger.i"
+	@echo "... big_integer_lib/UnsignedBigInteger.s"
 	@echo "... tests.o"
 	@echo "... tests.i"
 	@echo "... tests.s"

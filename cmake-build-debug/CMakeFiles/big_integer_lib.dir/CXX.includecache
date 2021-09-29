@@ -7,24 +7,20 @@
 #IncludeRegexTransform: 
 
 /Users/rinokus/Documents/Projects/big-integer/big_integer_lib/BigInteger.cpp
-iostream
--
-vector
--
 BigInteger.h
 /Users/rinokus/Documents/Projects/big-integer/big_integer_lib/BigInteger.h
 
 /Users/rinokus/Documents/Projects/big-integer/big_integer_lib/BigInteger.h
+UnsignedBigInteger.h
+/Users/rinokus/Documents/Projects/big-integer/big_integer_lib/UnsignedBigInteger.h
+
+/Users/rinokus/Documents/Projects/big-integer/big_integer_lib/UnsignedBigInteger.h
 iostream
+-
+string
+-
+sstream
 -
 vector
 -
-
-/Users/rinokus/Documents/Projects/big-integer/tests.cpp
-iostream
--
-cassert
--
-big_integer_lib/BigInteger.h
-/Users/rinokus/Documents/Projects/big-integer/big_integer_lib/BigInteger.h
 

@@ -1,50 +1,50 @@
-#include <iostream>
-#include <vector>
+#pragma once
 
+#include "UnsignedBigInteger.h"
 
-class BigInteger {
+class BigInteger : protected UnsignedBigInteger {
 public:
     BigInteger();
-
-    BigInteger(std::string string);
-    BigInteger(int number);
+    BigInteger(signed int number);
     BigInteger(unsigned int number);
-    BigInteger(long number);
+    BigInteger(signed long number);
     BigInteger(unsigned long number);
-    BigInteger(long long number);
+    BigInteger(signed long long number);
     BigInteger(unsigned long long number);
+    BigInteger(const BigInteger& copy);
+    explicit BigInteger(const UnsignedBigInteger& copy);
+    BigInteger(const std::string& str);
 
-    static std::string to_string(BigInteger number);
+    BigInteger& operator=(const BigInteger& copy);
 
-    static BigInteger abs(BigInteger number_first);
-    static bool even(const BigInteger& number);
-    static bool odd(const BigInteger& number);
-    static char sign(const BigInteger& number);
+    friend BigInteger operator+(const BigInteger& a, const BigInteger& b);
+    friend BigInteger operator-(const BigInteger& a, const BigInteger& b);
 
-    BigInteger operator +=(BigInteger number);
-    BigInteger operator ++();
-    BigInteger operator -=(BigInteger number);
-    BigInteger operator --();
+    BigInteger& operator+=(const BigInteger& b);
+    BigInteger& operator-=(const BigInteger& b);
 
-    friend std::ostream& operator <<(std::ostream& ostream, const BigInteger& number);
-    friend bool operator ==(const BigInteger& number_first, const BigInteger& number_second);
-    friend bool operator !=(const BigInteger& number_first, const BigInteger& number_second);
-    friend bool operator >(BigInteger number_first, BigInteger number_second);
-    friend bool operator <(const BigInteger& number_first, const BigInteger& number_second);
-    friend bool operator >=(const BigInteger& number_first, const BigInteger& number_second);
-    friend bool operator <=(const BigInteger& number_first, const BigInteger& number_second);
-    friend BigInteger operator +(BigInteger number_first, BigInteger number_second);
-    friend BigInteger operator -(BigInteger number_first, BigInteger number_second);
+    BigInteger operator-();
+    BigInteger& operator++() override;
+    BigInteger operator++(int);
+    BigInteger& operator--() override;
+    BigInteger operator--(int);
 
-private:
-    static const int BASE = 1'000'000'000;
-    static const int BASE_LENGTH = 9;
+    friend bool operator<(const BigInteger& a, const BigInteger& b);
+    friend bool operator==(const BigInteger& a, const BigInteger& b);
+    friend bool operator!=(const BigInteger& a, const BigInteger& b);
+    friend bool operator>(const BigInteger& a, const BigInteger& b);
+    friend bool operator<=(const BigInteger& a, const BigInteger& b);
+    friend bool operator>=(const BigInteger& a, const BigInteger& b);
 
-    std::vector<int> bi_digits;
-    bool is_positive;
+    friend std::ostream& operator<<(std::ostream& out, const BigInteger& number);
 
-    static std::vector<int> stringToVector(const std::string& string);
-    static BigInteger removeLeadingZeroes(BigInteger number);
-    static BigInteger shiftRight(BigInteger number, long long shift_power);
-    static BigInteger shiftLeft(BigInteger number, long long shift_power);
+    friend std::istream& operator>>(std::istream& in, BigInteger& number);
+
+    [[nodiscard]] std::string to_string() const override;
+
+    explicit operator bool() const;
+
+    [[nodiscard]] bool isZero() const;
+protected:
+    bool sign;
 };
