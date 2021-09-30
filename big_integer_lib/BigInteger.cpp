@@ -258,6 +258,54 @@ BigInteger& BigInteger::operator-=(const BigInteger& b) {
     return *this;
 }
 
+BigInteger operator*(const BigInteger& a, const BigInteger& b) {
+    BigInteger newNum = (BigInteger)((UnsignedBigInteger)a * (UnsignedBigInteger)b);
+    if (newNum.isZero()) {
+        return newNum;
+    }
+    newNum.sign = !(a.sign ^ b.sign);
+    return newNum;
+}
+
+BigInteger& BigInteger::operator*=(const BigInteger& b) {
+    UnsignedBigInteger::operator*=(b);
+    if (isZero()) {
+        sign = true;
+        return *this;
+    }
+    sign = !(sign ^ b.sign);
+    return *this;
+}
+
+BigInteger operator/(const BigInteger& a, const BigInteger& b) {
+    BigInteger newNum = (BigInteger)((UnsignedBigInteger) a / (UnsignedBigInteger) b);
+    if (newNum.isZero()) {
+        return newNum;
+    }
+    newNum.sign = !(a.sign ^ b.sign);
+    return newNum;
+}
+
+BigInteger& BigInteger::operator/=(const BigInteger& b) {
+    UnsignedBigInteger::operator/=(b);
+    if (isZero()) {
+        sign = true;
+        return *this;
+    }
+    sign = !(sign ^ b.sign);
+    return *this;
+}
+
 bool BigInteger::isZero() const {
     return digits.size() == 1 && digits[0] == '0';
+}
+
+BigInteger operator%(const BigInteger& a, const BigInteger& b) {
+    BigInteger newNum = a - a / b * b; //operator-(operator/(b).operator*(b));
+    return newNum;
+}
+
+BigInteger& BigInteger::operator%=(const BigInteger& b) {
+    operator-=(*this / b * b);  //operator/(b).operator*(b));
+    return *this;
 }

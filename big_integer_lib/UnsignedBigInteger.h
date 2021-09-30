@@ -35,9 +35,15 @@ public:
     UnsignedBigInteger& operator=(const UnsignedBigInteger& copy);
     friend UnsignedBigInteger operator+(const UnsignedBigInteger& a, const UnsignedBigInteger& b);
     friend UnsignedBigInteger operator-(const UnsignedBigInteger& a, const UnsignedBigInteger& b);
+    friend UnsignedBigInteger operator*(const UnsignedBigInteger& a, const UnsignedBigInteger& b);
+    friend UnsignedBigInteger operator/(const UnsignedBigInteger& a, const UnsignedBigInteger& b);
+    friend UnsignedBigInteger operator%(const UnsignedBigInteger& a, const UnsignedBigInteger& b);
 
     UnsignedBigInteger& operator+=(const UnsignedBigInteger& b);
     UnsignedBigInteger& operator-=(const UnsignedBigInteger& b);
+    UnsignedBigInteger& operator*=(const UnsignedBigInteger& b);
+    UnsignedBigInteger& operator/=(const UnsignedBigInteger& b);
+    UnsignedBigInteger& operator%=(const UnsignedBigInteger& b);
 
     virtual const UnsignedBigInteger& operator++();
     UnsignedBigInteger operator++(int);
