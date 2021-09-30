@@ -6,17 +6,29 @@
 
 #IncludeRegexTransform: 
 
-/Users/rinokus/Documents/Projects/big-integer/big_integer_lib/BigInteger.cpp
+/Users/rinokus/Documents/Projects/big-integer/big_integer_lib/BigInteger.h
+UnsignedBigInteger.h
+/Users/rinokus/Documents/Projects/big-integer/big_integer_lib/UnsignedBigInteger.h
+
+/Users/rinokus/Documents/Projects/big-integer/big_integer_lib/EquationsParser.cpp
+EquationsParser.h
+/Users/rinokus/Documents/Projects/big-integer/big_integer_lib/EquationsParser.h
+
+/Users/rinokus/Documents/Projects/big-integer/big_integer_lib/EquationsParser.h
 BigInteger.h
 /Users/rinokus/Documents/Projects/big-integer/big_integer_lib/BigInteger.h
-
-/Users/rinokus/Documents/Projects/big-integer/big_integer_lib/BigInteger.h
-UnsignedBigInteger.h
-/Users/rinokus/Documents/Projects/big-integer/big_integer_lib/UnsignedBigInteger.h
-
-/Users/rinokus/Documents/Projects/big-integer/big_integer_lib/UnsignedBigInteger.cpp
-UnsignedBigInteger.h
-/Users/rinokus/Documents/Projects/big-integer/big_integer_lib/UnsignedBigInteger.h
+algorithm
+-
+iostream
+-
+string
+-
+cctype
+-
+iterator
+-
+utility
+-
 
 /Users/rinokus/Documents/Projects/big-integer/big_integer_lib/UnsignedBigInteger.h
 iostream
@@ -35,4 +47,6 @@ cassert
 -
 big_integer_lib/BigInteger.h
 /Users/rinokus/Documents/Projects/big-integer/big_integer_lib/BigInteger.h
+big_integer_lib/EquationsParser.h
+/Users/rinokus/Documents/Projects/big-integer/big_integer_lib/EquationsParser.h
 

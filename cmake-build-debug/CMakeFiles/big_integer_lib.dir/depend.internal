@@ -5,10 +5,16 @@ CMakeFiles/big_integer_lib.dir/big_integer_lib/BigInteger.cpp.o
  /Users/rinokus/Documents/Projects/big-integer/big_integer_lib/BigInteger.cpp
  /Users/rinokus/Documents/Projects/big-integer/big_integer_lib/BigInteger.h
  /Users/rinokus/Documents/Projects/big-integer/big_integer_lib/UnsignedBigInteger.h
+CMakeFiles/big_integer_lib.dir/big_integer_lib/EquationsParser.cpp.o
+ /Users/rinokus/Documents/Projects/big-integer/big_integer_lib/BigInteger.h
+ /Users/rinokus/Documents/Projects/big-integer/big_integer_lib/EquationsParser.cpp
+ /Users/rinokus/Documents/Projects/big-integer/big_integer_lib/EquationsParser.h
+ /Users/rinokus/Documents/Projects/big-integer/big_integer_lib/UnsignedBigInteger.h
 CMakeFiles/big_integer_lib.dir/big_integer_lib/UnsignedBigInteger.cpp.o
  /Users/rinokus/Documents/Projects/big-integer/big_integer_lib/UnsignedBigInteger.cpp
  /Users/rinokus/Documents/Projects/big-integer/big_integer_lib/UnsignedBigInteger.h
 CMakeFiles/big_integer_lib.dir/tests.cpp.o
  /Users/rinokus/Documents/Projects/big-integer/big_integer_lib/BigInteger.h
+ /Users/rinokus/Documents/Projects/big-integer/big_integer_lib/EquationsParser.h
  /Users/rinokus/Documents/Projects/big-integer/big_integer_lib/UnsignedBigInteger.h
  /Users/rinokus/Documents/Projects/big-integer/tests.cpp

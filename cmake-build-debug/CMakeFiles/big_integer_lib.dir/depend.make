@@ -5,10 +5,16 @@ CMakeFiles/big_integer_lib.dir/big_integer_lib/BigInteger.cpp.o: ../big_integer_
 CMakeFiles/big_integer_lib.dir/big_integer_lib/BigInteger.cpp.o: ../big_integer_lib/BigInteger.h
 CMakeFiles/big_integer_lib.dir/big_integer_lib/BigInteger.cpp.o: ../big_integer_lib/UnsignedBigInteger.h
 
+CMakeFiles/big_integer_lib.dir/big_integer_lib/EquationsParser.cpp.o: ../big_integer_lib/BigInteger.h
+CMakeFiles/big_integer_lib.dir/big_integer_lib/EquationsParser.cpp.o: ../big_integer_lib/EquationsParser.cpp
+CMakeFiles/big_integer_lib.dir/big_integer_lib/EquationsParser.cpp.o: ../big_integer_lib/EquationsParser.h
+CMakeFiles/big_integer_lib.dir/big_integer_lib/EquationsParser.cpp.o: ../big_integer_lib/UnsignedBigInteger.h
+
 CMakeFiles/big_integer_lib.dir/big_integer_lib/UnsignedBigInteger.cpp.o: ../big_integer_lib/UnsignedBigInteger.cpp
 CMakeFiles/big_integer_lib.dir/big_integer_lib/UnsignedBigInteger.cpp.o: ../big_integer_lib/UnsignedBigInteger.h
 
 CMakeFiles/big_integer_lib.dir/tests.cpp.o: ../big_integer_lib/BigInteger.h
+CMakeFiles/big_integer_lib.dir/tests.cpp.o: ../big_integer_lib/EquationsParser.h
 CMakeFiles/big_integer_lib.dir/tests.cpp.o: ../big_integer_lib/UnsignedBigInteger.h
 CMakeFiles/big_integer_lib.dir/tests.cpp.o: ../tests.cpp
 

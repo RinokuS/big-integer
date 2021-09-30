@@ -392,8 +392,8 @@ UnsignedBigInteger operator*(const UnsignedBigInteger& a, const UnsignedBigInteg
             bufNumber.digits.push_back('0');
         }
 
-        for (size_t j = 0; j < b.digits.size(); ++j) {
-            char buf = (a.digits[i] - '0') * (b.digits[j] - '0') + dopNum;
+        for (const char &digit: b.digits) {
+            char buf = (a.digits[i] - '0') * (digit - '0') + dopNum;
             bufNumber.digits.push_back(buf % 10 + '0');
             dopNum = buf / 10;
         }
@@ -426,8 +426,8 @@ UnsignedBigInteger& UnsignedBigInteger::operator*=(const UnsignedBigInteger& b) 
             bufNumber.digits.push_back('0');
         }
 
-        for (size_t j = 0; j < b.digits.size(); ++j) {
-            char buf = (digits[i] - '0') * (b.digits[j] - '0') + dopNum;
+        for (const char &digit : b.digits) {
+            char buf = (digits[i] - '0') * (digit - '0') + dopNum;
             bufNumber.digits.push_back(buf % 10 + '0');
             dopNum = buf / 10;
         }

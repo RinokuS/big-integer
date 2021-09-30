@@ -1,6 +1,8 @@
 #include <iostream>
 #include <cassert>
+
 #include "big_integer_lib/BigInteger.h"
+#include "big_integer_lib/EquationsParser.h"
 
 void testBIConstructor() {
     BigInteger a("1000000000000000000000");

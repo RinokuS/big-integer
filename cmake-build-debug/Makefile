@@ -170,6 +170,33 @@ big_integer_lib/BigInteger.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/big_integer_lib.dir/build.make CMakeFiles/big_integer_lib.dir/big_integer_lib/BigInteger.cpp.s
 .PHONY : big_integer_lib/BigInteger.cpp.s
 
+big_integer_lib/EquationsParser.o: big_integer_lib/EquationsParser.cpp.o
+
+.PHONY : big_integer_lib/EquationsParser.o
+
+# target to build an object file
+big_integer_lib/EquationsParser.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/big_integer_lib.dir/build.make CMakeFiles/big_integer_lib.dir/big_integer_lib/EquationsParser.cpp.o
+.PHONY : big_integer_lib/EquationsParser.cpp.o
+
+big_integer_lib/EquationsParser.i: big_integer_lib/EquationsParser.cpp.i
+
+.PHONY : big_integer_lib/EquationsParser.i
+
+# target to preprocess a source file
+big_integer_lib/EquationsParser.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/big_integer_lib.dir/build.make CMakeFiles/big_integer_lib.dir/big_integer_lib/EquationsParser.cpp.i
+.PHONY : big_integer_lib/EquationsParser.cpp.i
+
+big_integer_lib/EquationsParser.s: big_integer_lib/EquationsParser.cpp.s
+
+.PHONY : big_integer_lib/EquationsParser.s
+
+# target to generate assembly for a file
+big_integer_lib/EquationsParser.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/big_integer_lib.dir/build.make CMakeFiles/big_integer_lib.dir/big_integer_lib/EquationsParser.cpp.s
+.PHONY : big_integer_lib/EquationsParser.cpp.s
+
 big_integer_lib/UnsignedBigInteger.o: big_integer_lib/UnsignedBigInteger.cpp.o
 
 .PHONY : big_integer_lib/UnsignedBigInteger.o
@@ -236,6 +263,9 @@ help:
 	@echo "... big_integer_lib/BigInteger.o"
 	@echo "... big_integer_lib/BigInteger.i"
 	@echo "... big_integer_lib/BigInteger.s"
+	@echo "... big_integer_lib/EquationsParser.o"
+	@echo "... big_integer_lib/EquationsParser.i"
+	@echo "... big_integer_lib/EquationsParser.s"
 	@echo "... big_integer_lib/UnsignedBigInteger.o"
 	@echo "... big_integer_lib/UnsignedBigInteger.i"
 	@echo "... big_integer_lib/UnsignedBigInteger.s"
