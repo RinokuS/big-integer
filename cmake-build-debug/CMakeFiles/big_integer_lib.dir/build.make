@@ -80,54 +80,54 @@ include CMakeFiles/big_integer_lib.dir/flags.make
 CMakeFiles/big_integer_lib.dir/tests.cpp.o: CMakeFiles/big_integer_lib.dir/flags.make
 CMakeFiles/big_integer_lib.dir/tests.cpp.o: ../tests.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/rinokus/Documents/Projects/big-integer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/big_integer_lib.dir/tests.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/big_integer_lib.dir/tests.cpp.o -c /Users/rinokus/Documents/Projects/big-integer/tests.cpp
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/big_integer_lib.dir/tests.cpp.o -c /Users/rinokus/Documents/Projects/big-integer/tests.cpp
 
 CMakeFiles/big_integer_lib.dir/tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/big_integer_lib.dir/tests.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/rinokus/Documents/Projects/big-integer/tests.cpp > CMakeFiles/big_integer_lib.dir/tests.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/rinokus/Documents/Projects/big-integer/tests.cpp > CMakeFiles/big_integer_lib.dir/tests.cpp.i
 
 CMakeFiles/big_integer_lib.dir/tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/big_integer_lib.dir/tests.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/rinokus/Documents/Projects/big-integer/tests.cpp -o CMakeFiles/big_integer_lib.dir/tests.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/rinokus/Documents/Projects/big-integer/tests.cpp -o CMakeFiles/big_integer_lib.dir/tests.cpp.s
 
 CMakeFiles/big_integer_lib.dir/big_integer_lib/BigInteger.cpp.o: CMakeFiles/big_integer_lib.dir/flags.make
 CMakeFiles/big_integer_lib.dir/big_integer_lib/BigInteger.cpp.o: ../big_integer_lib/BigInteger.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/rinokus/Documents/Projects/big-integer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/big_integer_lib.dir/big_integer_lib/BigInteger.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/big_integer_lib.dir/big_integer_lib/BigInteger.cpp.o -c /Users/rinokus/Documents/Projects/big-integer/big_integer_lib/BigInteger.cpp
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/big_integer_lib.dir/big_integer_lib/BigInteger.cpp.o -c /Users/rinokus/Documents/Projects/big-integer/big_integer_lib/BigInteger.cpp
 
 CMakeFiles/big_integer_lib.dir/big_integer_lib/BigInteger.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/big_integer_lib.dir/big_integer_lib/BigInteger.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/rinokus/Documents/Projects/big-integer/big_integer_lib/BigInteger.cpp > CMakeFiles/big_integer_lib.dir/big_integer_lib/BigInteger.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/rinokus/Documents/Projects/big-integer/big_integer_lib/BigInteger.cpp > CMakeFiles/big_integer_lib.dir/big_integer_lib/BigInteger.cpp.i
 
 CMakeFiles/big_integer_lib.dir/big_integer_lib/BigInteger.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/big_integer_lib.dir/big_integer_lib/BigInteger.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/rinokus/Documents/Projects/big-integer/big_integer_lib/BigInteger.cpp -o CMakeFiles/big_integer_lib.dir/big_integer_lib/BigInteger.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/rinokus/Documents/Projects/big-integer/big_integer_lib/BigInteger.cpp -o CMakeFiles/big_integer_lib.dir/big_integer_lib/BigInteger.cpp.s
 
 CMakeFiles/big_integer_lib.dir/big_integer_lib/UnsignedBigInteger.cpp.o: CMakeFiles/big_integer_lib.dir/flags.make
 CMakeFiles/big_integer_lib.dir/big_integer_lib/UnsignedBigInteger.cpp.o: ../big_integer_lib/UnsignedBigInteger.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/rinokus/Documents/Projects/big-integer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/big_integer_lib.dir/big_integer_lib/UnsignedBigInteger.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/big_integer_lib.dir/big_integer_lib/UnsignedBigInteger.cpp.o -c /Users/rinokus/Documents/Projects/big-integer/big_integer_lib/UnsignedBigInteger.cpp
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/big_integer_lib.dir/big_integer_lib/UnsignedBigInteger.cpp.o -c /Users/rinokus/Documents/Projects/big-integer/big_integer_lib/UnsignedBigInteger.cpp
 
 CMakeFiles/big_integer_lib.dir/big_integer_lib/UnsignedBigInteger.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/big_integer_lib.dir/big_integer_lib/UnsignedBigInteger.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/rinokus/Documents/Projects/big-integer/big_integer_lib/UnsignedBigInteger.cpp > CMakeFiles/big_integer_lib.dir/big_integer_lib/UnsignedBigInteger.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/rinokus/Documents/Projects/big-integer/big_integer_lib/UnsignedBigInteger.cpp > CMakeFiles/big_integer_lib.dir/big_integer_lib/UnsignedBigInteger.cpp.i
 
 CMakeFiles/big_integer_lib.dir/big_integer_lib/UnsignedBigInteger.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/big_integer_lib.dir/big_integer_lib/UnsignedBigInteger.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/rinokus/Documents/Projects/big-integer/big_integer_lib/UnsignedBigInteger.cpp -o CMakeFiles/big_integer_lib.dir/big_integer_lib/UnsignedBigInteger.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/rinokus/Documents/Projects/big-integer/big_integer_lib/UnsignedBigInteger.cpp -o CMakeFiles/big_integer_lib.dir/big_integer_lib/UnsignedBigInteger.cpp.s
 
 CMakeFiles/big_integer_lib.dir/big_integer_lib/EquationsParser.cpp.o: CMakeFiles/big_integer_lib.dir/flags.make
 CMakeFiles/big_integer_lib.dir/big_integer_lib/EquationsParser.cpp.o: ../big_integer_lib/EquationsParser.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/rinokus/Documents/Projects/big-integer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/big_integer_lib.dir/big_integer_lib/EquationsParser.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/big_integer_lib.dir/big_integer_lib/EquationsParser.cpp.o -c /Users/rinokus/Documents/Projects/big-integer/big_integer_lib/EquationsParser.cpp
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/big_integer_lib.dir/big_integer_lib/EquationsParser.cpp.o -c /Users/rinokus/Documents/Projects/big-integer/big_integer_lib/EquationsParser.cpp
 
 CMakeFiles/big_integer_lib.dir/big_integer_lib/EquationsParser.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/big_integer_lib.dir/big_integer_lib/EquationsParser.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/rinokus/Documents/Projects/big-integer/big_integer_lib/EquationsParser.cpp > CMakeFiles/big_integer_lib.dir/big_integer_lib/EquationsParser.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/rinokus/Documents/Projects/big-integer/big_integer_lib/EquationsParser.cpp > CMakeFiles/big_integer_lib.dir/big_integer_lib/EquationsParser.cpp.i
 
 CMakeFiles/big_integer_lib.dir/big_integer_lib/EquationsParser.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/big_integer_lib.dir/big_integer_lib/EquationsParser.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/rinokus/Documents/Projects/big-integer/big_integer_lib/EquationsParser.cpp -o CMakeFiles/big_integer_lib.dir/big_integer_lib/EquationsParser.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/rinokus/Documents/Projects/big-integer/big_integer_lib/EquationsParser.cpp -o CMakeFiles/big_integer_lib.dir/big_integer_lib/EquationsParser.cpp.s
 
 # Object files for target big_integer_lib
 big_integer_lib_OBJECTS = \
@@ -144,6 +144,8 @@ big_integer_lib: CMakeFiles/big_integer_lib.dir/big_integer_lib/BigInteger.cpp.o
 big_integer_lib: CMakeFiles/big_integer_lib.dir/big_integer_lib/UnsignedBigInteger.cpp.o
 big_integer_lib: CMakeFiles/big_integer_lib.dir/big_integer_lib/EquationsParser.cpp.o
 big_integer_lib: CMakeFiles/big_integer_lib.dir/build.make
+big_integer_lib: lib/libgtest_maind.a
+big_integer_lib: lib/libgtestd.a
 big_integer_lib: CMakeFiles/big_integer_lib.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/rinokus/Documents/Projects/big-integer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable big_integer_lib"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/big_integer_lib.dir/link.txt --verbose=$(VERBOSE)
